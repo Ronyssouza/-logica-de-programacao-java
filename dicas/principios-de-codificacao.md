@@ -1,4 +1,4 @@
-# Princípios de Códificação
+# Princípios de Codificação
 
 Os princípios ajudarão a você escrever um código limpo, fácil de entender, manter e evoluir. Revisões são sempre necessárias ao longo do seu desenvolvimento como desenvolvedor de software. O importante é internalizar as boas práticas, aprimorando gradualmente a qualidade do código e tornando-o mais legível.
 
