@@ -24,3 +24,27 @@ Em seguinda, deve imprimir o valor total em estoque do produto, adicionar 5 unid
 A tarefa consiste em criar um programa que calcule a média de idade, encontre a pessoa mais velha e a pessoa mais nova de um grupo de pessoas. Para isso, será necessário armazenar as informações de cada pessoa, como nome e idade, e criar um grupo de pessoas.
 
 No final do programa, deve-se imprimir na tela a média de idade, o nome da pessoa mais velha e o nome da pessoa mais nova.
+
+## Questão 03
+
+Crie um programa que permita ao usuário gerenciar uma biblioteca de livros.
+O programa deve ser capaz de cadastrar novos livros, excluir livros, buscar livros pelo título, autor ou categoria, e listar todos os livros cadastrados. 
+Cada livro deve possuir um título, um autor, uma categoria e uma quantidade disponível em estoque.
+
+O programa deve apresentar um menu de opções para o usuário, permitindo-o escolher qual ação deseja realizar. O menu deve conter as seguintes opções:
+
+1. Cadastrar novo livro
+2. Excluir livro
+3. Buscar livro pelo título
+4. Buscar livro pelo autor
+5. Buscar livro pela categoria
+6. Listar todos os livros cadastrados
+7. Sair do programa
+
+* Ao selecionar a opção 1, o usuário deverá informar o título, autor, categoria e quantidade disponível em estoque do livro a ser cadastrado.
+* Ao selecionar a opção 2, o usuário deverá informar o título do livro a ser excluído.
+* Ao selecionar as opções 3, 4 ou 5, o usuário deverá informar o critério de busca (título, autor ou categoria) e o valor correspondente.
+* Ao selecionar a opção 6, o programa deve imprimir na tela todos os livros cadastrados, com suas informações completas.
+* Ao selecionar a opção 7, o programa deve encerrar.
+
+Caso o usuário informe valores inválidos ou tente realizar ações que não são possíveis (por exemplo, excluir um livro que não está cadastrado), o programa deve exibir mensagens de erro apropriadas e permitir que o usuário tente novamente.
