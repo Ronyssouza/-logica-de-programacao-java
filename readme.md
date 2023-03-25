@@ -1,4 +1,12 @@
-# Abaixo estão questões Java que envolve lógica de programação e prática de orientação a objetos
+# Boas práticas de programação
+
+## Consultas rápidas
+
+- [Commits Semânticos](dicas/commits-semanticos.md)
+- [Princípios para código de boa qualidade](dicas/principios-de-codificacao.md)
+- [Controle de fluxo no Java](dicas/controle-de-fluxo-no-java.md)
+
+## Abaixo estão questões Java que envolve lógica de programação e prática de orientação a objetos
 
 ## Questão 01
 
