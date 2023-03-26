@@ -10,6 +10,12 @@
 
 ## Questão 01
 
+Crie um programa em Java que receba a lista de números inteiros {2, 5, 10, 15, 20, 25, 30} e verifique se cada número é par ou ímpar. Em seguida, o programa deve exibir uma mensagem informando se cada número é par ou ímpar.
+
+Para isso, você deve declarar um array de inteiros com os valores da lista e percorrê-lo para verificar se cada número é par ou ímpar. O programa deve exibir uma mensagem para cada número, informando se ele é par ou ímpar.
+
+## Questão 02
+
 Suponha que você esteja desenvolvimendo um sistema de gerenciamento de estoque para uma loja de eletrônicos. Para isso, você precisa criar uma estrutura de dados que armazene as seguintes informações sobre cada produto: identificador único, nome, quantidade disponível em estoque e preço unitário.
 
 Além disso, você precisa implementar algumas funcionalidades para manipular esses dados, incluindo:
@@ -27,13 +33,13 @@ Para testar o sistema, você deve criar um produto com as seguintes informaçõe
 
 Em seguinda, deve imprimir o valor total em estoque do produto, adicionar 5 unidades ao estoque e imprimir o valor total novamente,  Depois, deve remover 3 unidades do estoque e imprimir o valor total uma última vez.
 
-## Questão 02
+## Questão 03
 
 A tarefa consiste em criar um programa que calcule a média de idade, encontre a pessoa mais velha e a pessoa mais nova de um grupo de pessoas. Para isso, será necessário armazenar as informações de cada pessoa, como nome e idade, e criar um grupo de pessoas.
 
 No final do programa, deve-se imprimir na tela a média de idade, o nome da pessoa mais velha e o nome da pessoa mais nova.
 
-## Questão 03
+## Questão 04
 
 Crie um programa que permita ao usuário gerenciar uma biblioteca de livros.
 O programa deve ser capaz de cadastrar novos livros, excluir livros, buscar livros pelo título, autor ou categoria, e listar todos os livros cadastrados. 

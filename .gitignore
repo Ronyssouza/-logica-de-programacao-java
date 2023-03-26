@@ -1,0 +1,53 @@
+# Java build files
+build/
+target/
+bin/
+*.class
+
+# Maven build files
+log/
+log4j.properties
+*.log
+mvn-build/
+pom.xml.tag
+pom.xml.releaseBackup
+release.properties
+dependency-reduced-pom.xml
+maven-archiver/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse files
+.settings/
+.classpath
+.project
+.metadata
+
+# NetBeans files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# Javadoc files
+docs/
+javadoc/
+
+# Other files and directories
+*.jar
+*.war
+*.ear
+hs_err_pid*
+.idea_modules/
+.idea/libraries/
+.idea/workspace.xml
+.idea/tasks.xml
+*.log
+*.jks
