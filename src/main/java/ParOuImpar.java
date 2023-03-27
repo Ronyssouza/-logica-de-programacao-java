@@ -1,6 +1,6 @@
 public class ParOuImpar {
     public static void main(String[] args) {
-        int[] numeros = {2, 5, 10, 15, 20, 25, 30};
+        int[] numeros = {2, 5, 10, 15, 20, 25, 30, 35};
 
         for (int i = 0; i < numeros.length; i++) {
             if (numeros[i] % 2 == 0) {
