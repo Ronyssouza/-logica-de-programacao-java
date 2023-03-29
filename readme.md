@@ -38,6 +38,14 @@ Em seguinda, deve imprimir o valor total em estoque do produto, adicionar 5 unid
 
 A tarefa consiste em criar um programa que calcule a média de idade, encontre a pessoa mais velha e a pessoa mais nova de um grupo de pessoas. Para isso, será necessário armazenar as informações de cada pessoa, como nome e idade, e criar um grupo de pessoas.
 
+Adicione as informações de 5 pessoas ao grupo:
+
+* Nome: Maria, Idade: 25
+* Nome: João, Idade: 31
+* Nome: Ana, Idade: 19
+* Nome: Pedro, Idade: 42
+* Nome: Juliana, Idade: 38
+
 No final do programa, deve-se imprimir na tela a média de idade, o nome da pessoa mais velha e o nome da pessoa mais nova.
 
 ## Questão 04
