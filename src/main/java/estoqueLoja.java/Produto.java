@@ -9,7 +9,7 @@ public class Produto {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		Produto product = new Produto();
+		Produto produto = new Produto();
 		System.out.println(": ");
 		System.out.print("Nome: ");
 		
@@ -25,14 +25,14 @@ public class Produto {
 		System.out.println();
 		
 		System.out.print("digite o produto  para add no estoque : ");
-		int quantity = sc.nextInt();
-		product.addProduto(quantidade);
+		int quantidade = sc.nextInt();
+		Produto.addProduto(quantidade);
 		System.out.println();
 		System.out.println("data: " + produto);
 		System.out.println();
 		System.out.print("digite o produto a ser removido para ser removido do estoque: ");
-		quantity = sc.nextInt();
-		product.removeProduto(quantidade);
+		quantidade = sc.nextInt();
+		Produto.removeProduto(quantidade);
 		System.out.println();
 		System.out.println("*********: " + Produto);
 		sc.close();
