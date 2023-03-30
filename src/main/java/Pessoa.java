@@ -1,9 +1,9 @@
 
-public class GrupoPessoas {
+public class Pessoa {
 	private String nome;
 	private int idade;
 
-	public GrupoPessoas(String nome, int idade) {
+	public Pessoa(String nome, int idade) {
 		this.nome = nome;
 		this.idade = idade;
 	}

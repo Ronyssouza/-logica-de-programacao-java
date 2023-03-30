@@ -1,8 +1,8 @@
 
 public class IdadeMedia {
 	public static void main(String[] args) {
-		GrupoPessoas[] pessoas = { new GrupoPessoas("Maria", 25), new GrupoPessoas("João", 31),
-				new GrupoPessoas("Ana", 19), new GrupoPessoas("Pedro", 42), new GrupoPessoas("Juliana", 38) };
+		Pessoas[] pessoas = { new Pessoas("Maria", 25), new Pessoas("João", 31), new Pessoas("Ana", 19),
+				new Pessoas("Pedro", 42), new Pessoas("Juliana", 38) };
 
 		int somaIdades = 0;
 		int maiorIdade = pessoas[0].getIdade();
@@ -10,7 +10,7 @@ public class IdadeMedia {
 		String nomeMaisVelho = pessoas[0].getNome();
 		String nomeMaisNovo = pessoas[0].getNome();
 
-		for (GrupoPessoas pessoa : pessoas) {
+		for (Pessoas pessoa : pessoas) {
 			somaIdades += pessoa.getIdade();
 
 			if (pessoa.getIdade() > maiorIdade) {
