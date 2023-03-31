@@ -1,9 +1,9 @@
 
-public class IdadeMedia {
-	public static void main(String[] args) {
-		Pessoas[] pessoas = { new Pessoas("Maria", 25), new Pessoas("João", 31), new Pessoas("Ana", 19),
-				new Pessoas("Pedro", 42), new Pessoas("Juliana", 38) };
-
+public class CalculaIdade {
+	
+	public void calcularPessoas(Pessoas[] pessoas) {
+		Pessoas minhaPessoa = new Pessoas(null, 0); 
+		
 		int somaIdades = 0;
 		int maiorIdade = pessoas[0].getIdade();
 		int menorIdade = pessoas[0].getIdade();
@@ -31,3 +31,4 @@ public class IdadeMedia {
 		System.out.println("Pessoa mais nova: " + nomeMaisNovo);
 	}
 }
+
