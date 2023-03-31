@@ -3,6 +3,7 @@
 ## Consultas rápidas
 
 - [Dúvidas gerais](dicas/geral.md)
+- [Comandos Git](dicas/comandos-git.md)
 - [Commits Semânticos](dicas/commits-semanticos.md)
 - [Princípios para código de boa qualidade](dicas/principios-de-codificacao.md)
 - [Controle de fluxo no Java](dicas/controle-de-fluxo-no-java.md)
