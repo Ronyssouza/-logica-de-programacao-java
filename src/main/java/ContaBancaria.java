@@ -35,13 +35,13 @@ public class ContaBancaria {
 	}
 
 	public void imprimirExtrato() {
-		System.out.println("Extrato da conta 3: ");
+		System.out.println("Extrato da conta3:" );
 		System.out.println("Numero da conta: " + numeroConta);
 		System.out.println("Nome do titular: " + nomeTitular);
-		System.out.println("Saldo: R$ 2000,00");
+		System.out.println("Saldo: R$ " +  saldo);
 		System.out.println("Limite de credito: R$ " + limiteCredito);
 
-		if (saldo > 0) {
+		if (saldo < 0) {
 			System.out.println("Limite de credito utilizado: R$ " + limiteCredito);
 		} else {
 			System.out.println("Saldo insuficiente");

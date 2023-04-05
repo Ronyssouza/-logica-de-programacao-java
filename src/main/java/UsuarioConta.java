@@ -5,11 +5,11 @@ public class UsuarioConta {
 		ContaBancaria conta3 = new ContaBancaria(24680, "Jose Santos", 2000.0, 200.0);
 
 		conta1.depositar(500.0);
-		conta2.sacar(200.0);
-		conta3.sacar(2200.0);
+		conta2.sacar(1000.0);
+		conta3.imprimirExtrato();
 
 		if (!conta3.sacar(1000.0)) {
-			System.out.println("Saldo insuficiente");
+			System.out.println("");
 		}
 
 		if (!conta3.sacar(100.0)) {
