@@ -17,12 +17,14 @@ public class ContaBancaria {
 		saldo += valor;
 	}
 
-	public boolean sacar(double valor) {
-		if (valor <= saldo + limiteCredito) {
-			saldo -= valor;
-			return true;
+	public void sacar(double valor) {
+		if (valor > saldo && limiteCredito == 0) {
+			System.out.println("Saldo insuficiente");
+		} else if (valor > saldo + limiteCredito) {
+			System.out.println("Limite de credito atingido");
 		} else {
-			return false;
+			saldo -= valor;
+			System.out.println("Saque realizado com sucesso!");
 		}
 	}
 
@@ -35,21 +37,9 @@ public class ContaBancaria {
 	}
 
 	public void imprimirExtrato() {
-		System.out.println("Extrato da conta3:" );
 		System.out.println("Numero da conta: " + numeroConta);
 		System.out.println("Nome do titular: " + nomeTitular);
 		System.out.println("Saldo: R$ " +  saldo);
 		System.out.println("Limite de credito: R$ " + limiteCredito);
-
-		if (saldo < 0) {
-			System.out.println("Limite de credito utilizado: R$ " + limiteCredito);
-		} else {
-			System.out.println("Saldo insuficiente");
-
-		}
-
-		if (saldo + limiteCredito >= 0) {
-			System.out.println("Limite de credito atingido");
-		}
 	}
 }

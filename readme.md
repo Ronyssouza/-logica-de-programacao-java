@@ -90,8 +90,8 @@ Implemente a classe ContaBancaria em Java e crie objetos para cada conta. Realiz
 * Deposite R$ 500,00 na conta 1.
 * Saque R$ 200,00 da conta 2.
 * Imprima o extrato da conta 3.
-* Tente sacar R$ 1000,00 da conta 1 e imprima a mensagem "Saldo insuficiente" caso o saque não seja possível.
-* Tente sacar R$ 100,00 da conta 3 e imprima a mensagem "Limite de crédito atingido" caso o saque não seja possível.
+* Tente sacar R$ 2000,00 da conta 1 e imprima a mensagem "Saldo insuficiente" caso o saque não seja possível.
+* Tente sacar R$ 2300,00 da conta 3 e imprima a mensagem "Limite de crédito atingido" caso o saque não seja possível.
 
 Saída esperada:
 
