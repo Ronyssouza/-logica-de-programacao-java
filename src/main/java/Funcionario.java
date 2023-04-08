@@ -20,8 +20,8 @@ public class Funcionario {
 	public double calcularAumento() {
 		double novoSalario=salario;
 
-		if (tempoDeServico <= 8) {
-			novoSalario *= 1.1;
+		if (tempoDeServico > 5) {
+			novoSalario *= 1.15;
 			
 
 		} else if (tempoDeServico > 10) {
