@@ -26,7 +26,7 @@ Em Java, existem estruturas de controle de fluxo que você pode usar:
     ```java
     if (x > 10) {
         System.out.println("x é maior que 10");
-    else if (x = 10) {
+    } else if (x = 10) {
         System.out.println("x é igual a 10");        
     } else {
         System.out.println("x é menor que 10");
