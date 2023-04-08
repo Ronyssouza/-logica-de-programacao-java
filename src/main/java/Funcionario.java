@@ -5,6 +5,7 @@ public class Funcionario {
 	double salario;
 	int tempoDeServico;
 	double calcularAumento;
+	double novoSalario;
 	
 
 	public Funcionario(String nome, double salario, int tempoDeServico) {
@@ -17,21 +18,24 @@ public class Funcionario {
 	}
 
 	public double calcularAumento() {
+		double novoSalario=salario;
 
-		if (tempoDeServico > 5 && tempoDeServico < 10) {
+		if (tempoDeServico <= 8) {
 			salario *= 1.1;
+			
 
 		} else if (tempoDeServico > 10) {
-			salario *= 1.15;
+			novoSalario *= 1.15;
 		}
-		return salario;
+		return novoSalario;
 	}
 	
 	
 	
 
 	public void imprimirInformacoes() {
-		System.out.printf("Nome: %s - Salario: R$ %.2f - Tempo de servico: %d anos - Novo Salario: R$ %.2f\n", nome, salario, tempoDeServico, salario );
+		double novoSalario = calcularAumento();
+		System.out.printf("Nome: %s - Salario: R$ %.2f - Tempo de servico: %d anos - Novo Salario: R$ %.2f\n", nome, salario, tempoDeServico, novoSalario );
 	}
 }
 
