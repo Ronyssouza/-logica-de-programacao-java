@@ -21,20 +21,15 @@ Em Java, existem estruturas de controle de fluxo que você pode usar:
         System.out.println("x é menor ou igual a 10");
     }
     ```
-
-3. Estrutura de decisão "switch"
+3. Estrutura de decisão "else-if":
 
     ```java
-    switch (diaSemana) {
-    case 1:
-        System.out.println("Domingo");
-        break;
-    case 2:
-        System.out.println("Segunda-feira");
-        break;
-    // outros casos
-    default:
-        System.out.println("Dia inválido");
+    if (x > 10) {
+        System.out.println("x é maior que 10");
+    else if (x = 10) {
+        System.out.println("x é igual a 10");        
+    } else {
+        System.out.println("x é menor que 10");
     }
     ```
 
