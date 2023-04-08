@@ -21,7 +21,7 @@ public class Funcionario {
 		double novoSalario=salario;
 
 		if (tempoDeServico <= 8) {
-			salario *= 1.1;
+			novoSalario *= 1.1;
 			
 
 		} else if (tempoDeServico > 10) {
