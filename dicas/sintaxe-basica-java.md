@@ -21,3 +21,5 @@
     * Bloco finally
     * Pilha de exceções
     * Múltiplos blocos catch
+11. Collections Framework
+    * [Vídeo da Alura sobre o assunto](https://www.youtube.com/watch?v=PeFDQtLBlto&t=348s)   
