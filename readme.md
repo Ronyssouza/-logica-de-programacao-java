@@ -137,8 +137,16 @@ Os carros e suas especificações são:
 * Carro 1: Modelo Fiat, requer 4 litros de óleo e pneus aro 15.
 * Carro 2: Modelo Volkswagen, requer 5 litros de óleo e pneus aro 14.
 * Carro 3: Modelo Ford, requer 6 litros de óleo e pneus aro 16.
+* Carro 4: Modelo Cadillac, requer 5 litros de óleo e pneus aro 19.
+* Carro 5: Modelo Jaguar, requer 9 litros de óleo e pneus aro 20.
+* Carro 6: Modelo Roewe RX8, requer 8 litros de óleo e pneus aro 21.
 
-João cobra R$ 50,00 pelo serviço de troca de óleo e R$ 20,00 pela verificação de cada pneu.
+João buscando inovar em sua mecânica e vai usar uma cobrança progressiva. Assim, a nova estratégia de preços seria a seguinte: 
+
+* Troca de óleo: R$ 50,00 para até 4 litros de óleo. Para cada litro adicional de óleo, acrescenta-se R$ 2,50.
+* Verificação dos pneus: R$ 20,00 por aro até 16 polegadas. Para cada polegada adicional, acrescenta-se R$ 5,00.
+
+Com essas mudanças, o preço final será mais justo e o cliente poderá avaliar com mais clareza se o custo do serviço é adequado para as especificações do seu carro.
 
 Crie um programa em Java que calcule o custo total do serviço realizado por João em cada um dos carros e imprima na tela.
 
@@ -147,6 +155,11 @@ Saída esperada:
 > Custo total do serviço do carro 1: R$ 130,00 <br/>
 Custo total do serviço do carro 2: R$ 150,00 <br/>
 Custo total do serviço do carro 3: R$ 200,00 <br/>
+Custo total do serviço do carro 4: R$ 400,00 <br/>
+Custo total do serviço do carro 5: R$ 500,00 <br/>
+Custo total do serviço do carro 6: R$ 600,00 <br/>
+
+Vale lembrar que os valores apresentados anteriormente são meramente ilustrativos e não refletem necessariamente o custo total do serviço realizado por João. O código desenvolvido deve calcular com precisão e apresentar os valores corretos para cada serviço prestado, levando em consideração as especificações de cada carro atendido.
 
 ## Questão 07
 
