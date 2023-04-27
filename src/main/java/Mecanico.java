@@ -13,20 +13,20 @@ public class Mecanico {
 
 	public double calcularCusto(Carro carro) {
 
-		double custoTrocaDeOleo = precoTrocaDeOleo;
+		double custoTrocaDeOleo = precoTrocaDeOleo * litrosAdicionais;
 		if (carro.getLitroDeOleo() > 4) {
 
-			double litrosAdicionais = carro.getLitroDeOleo() - 4;
-			custoTrocaDeOleo += litrosAdicionais * 2.5;
+			double litrosAdicionais = carro.getLitroDeOleo();
+			custoTrocaDeOleo += litrosAdicionais;
 		}
 		double custoVerificacaoPneu = precoVerificacaoPneu * polegadaAdicionais;
-		if (carro.getTamanhoDoPneu() > 16) {
+		if (carro.getTamanhoDoPneu() < 16) {
 
 			double polegadaAdicionais = carro.getTamanhoDoPneu() - 16;
-			custoVerificacaoPneu += polegadaAdicionais * 5;
+			custoVerificacaoPneu += polegadaAdicionais;
 		}
 
-		double custoTotal = custoTrocaDeOleo + custoVerificacaoPneu;
+		double custoTotal = custoTrocaDeOleo + custoVerificacaoPneu * litrosAdicionais + polegadaAdicionais;
 		return custoTotal;
 	}
 
